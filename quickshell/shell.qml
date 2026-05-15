@@ -3,8 +3,6 @@ import Quickshell
 import QtQuick
 
 ShellRoot {
-    id: root
-
     PanelWindow {
         id: mainMonitor
         screen: Quickshell.screens.find(s => s.name === "DP-1")
@@ -21,41 +19,45 @@ ShellRoot {
         Rectangle {
             anchors.fill: parent
             color: Theme.backgroundColor
-            
-            border {
-                width: 1
-                color: Theme.borderColor
-            }
 
             Row {
                 id: leftColumnMain
-                spacing: 10
+                spacing: 15
 
                 anchors {
                     left: parent.left
                     verticalCenter: parent.verticalCenter
                     leftMargin: 10
                 }
+
+                Workspaces {}
             }
 
             Row {
                 id: centerColumnMain
-                spacing: 10
+                spacing: 15
 
                 anchors {
                     centerIn: parent
                 }
+
+                Mpris {}
             }
 
             Row {
                 id: rightColumnMain
-                spacing: 10
+                spacing: 15
 
                 anchors {
                     right: parent.right
                     verticalCenter: parent.verticalCenter
                     rightMargin: 10
                 }
+
+                SystemTray {}
+                Sound {}
+                Connection {}
+                Clock {}
             }
         }
     }
@@ -76,41 +78,45 @@ ShellRoot {
         Rectangle {
             anchors.fill: parent
             color: Theme.backgroundColor
-            
-            border {
-                width: 1
-                color: Theme.borderColor
-            }
 
             Row {
                 id: leftColumnSecondary
-                spacing: 10
+                spacing: 15
 
                 anchors {
                     left: parent.left
                     verticalCenter: parent.verticalCenter
                     leftMargin: 10
                 }
+
+                WorkspacesAlt {}
             }
 
             Row {
                 id: centerColumnSecondary
-                spacing: 10
+                spacing: 15
 
                 anchors {
                     centerIn: parent
                 }
+
+                Mpris {}
             }
 
             Row {
                 id: rightColumnSecondary
-                spacing: 10
+                spacing: 15
 
                 anchors {
                     right: parent.right
                     verticalCenter: parent.verticalCenter
                     rightMargin: 10
                 }
+
+                SystemTray {}
+                Sound {}
+                Connection {}
+                Clock {}
             }
         }
     }

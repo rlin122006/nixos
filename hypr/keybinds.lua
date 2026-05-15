@@ -30,10 +30,10 @@ hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- work space controls
--- switch workspaces with mainMod + 0-9
--- move active window to a workspace with altMod + 0-9
-for i = 1, 10 do
-    local key = i % 10 -- 10 maps to key 0
+-- switch workspaces with mainMod + 1-8
+-- move active window to a workspace with altMod + 1-8
+for i = 1, 8 do
+    local key = i
     hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ workspace = i}))
     hl.bind(altMod .. " + " .. key, hl.dsp.window.move({ workspace = i }))
 end

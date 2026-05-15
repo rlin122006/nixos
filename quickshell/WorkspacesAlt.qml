@@ -8,7 +8,7 @@ Item {
     implicitHeight: 25
     implicitWidth: row.implicitWidth + 5
 
-    property string targetMonitor: "DP-1"
+    property string targetMonitor: "HDMI-A-1"
     property int workspaceCount: 8
 
     RowLayout {
