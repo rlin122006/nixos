@@ -6,7 +6,7 @@
       "type": "title",
       "format": "\u001b[38;2;137;180;250m┌────────────── {#magenta}{user-name}\u001b[38;2;226;238;252m@\u001b[0m{#blue}{host-name} ──────────────┐"
     },
-    { "type": "host", "key": "󰌢  PC", "keyColor": "magenta"},
+    { "type": "host", "key": "󰌢  PC", "keyColor": "magenta", "format": "{1}"},
     { "type": "os", "key": "│ ├󰌽 ", "keyColor": "magenta"},
     { "type": "packages", "key": "│ ├󰏗 ", "keyColor": "magenta"},
     { "type": "wm", "key": "│ ├󱂬 ", "keyColor": "magenta"},

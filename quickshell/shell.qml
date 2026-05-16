@@ -31,6 +31,7 @@ ShellRoot {
                 }
 
                 Workspaces {}
+                FocusedWindow {}
             }
 
             Row {
@@ -90,6 +91,7 @@ ShellRoot {
                 }
 
                 WorkspacesAlt {}
+                FocusedWindow {}
             }
 
             Row {
