@@ -15,7 +15,6 @@ Rectangle {
         anchors.centerIn: parent
         color: hover.hovered ? Theme.highlightTextColor : Theme.textColor
         font.family: Theme.mapleMono
-        font.bold: hover.hovered
 
         text: {
             if (!player) return ""
