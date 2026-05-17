@@ -33,8 +33,7 @@ Rectangle {
         command: ["nmcli", "networking", "connectivity"]
     
         stdout: SplitParser {
-                onRead: data => {connected = data.trim() === "full"
-            }
+            onRead: data => {connected = data.trim() === "full"}
         }
     }
 

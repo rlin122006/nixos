@@ -1,10 +1,14 @@
 import Quickshell.Services.Mpris
+import Quickshell.Io
 import QtQuick
 
 Rectangle {
     implicitHeight: 25
     implicitWidth: mprisText.implicitWidth + 5
     color: "transparent"
+
+    property bool rmpcRunning: false
+    property bool spotifyRunning: false
 
     Text {
         id: mprisText
@@ -15,6 +19,7 @@ Rectangle {
 
         text: {
             if (!player) return ""
+            if (!rmpcRunning && !spotifyRunning) return ""
             const icon = player.playbackState === MprisPlaybackState.Playing ? "⏸" : "▶"
             return `${icon} ${player.trackTitle || "Unknown"} ~ ${player.trackArtist || "Unknown"} (${formatSecs(player.position)}/${formatSecs(player.length)})`
         }
@@ -28,7 +33,32 @@ Rectangle {
         interval: 1000
         running: player?.playbackState === MprisPlaybackState.Playing
         repeat: true
-        onTriggered: { if (player) player.positionChanged() }
+        onTriggered: {if (player) player.positionChanged()}
+    }
+
+    Timer {
+        interval: 2000
+        running: true
+        repeat: true
+        triggeredOnStart: true
+        onTriggered: {
+            rmpcCheck.running = true
+            spotifyCheck.running = true
+        }
+    }
+
+    Process {
+        id: rmpcCheck
+        command: ["pgrep", "-x", "rmpc"]
+        
+        onExited: (exitCode) => { rmpcRunning = exitCode === 0 }
+    }
+
+    Process {
+        id: spotifyCheck
+        command: ["pgrep", "-x", "spotify"]
+
+        onExited: (exitCode) => { spotifyRunning = exitCode === 0 }
     }
 
     function formatSecs(s) {

@@ -11,5 +11,5 @@
     "args": null,
     "distro": "artix_small",
     "pride_month_disable": false,
-    "custom_ascii_path": null
+    "custom_ascii_path": "/home/riley/.config/fastfetch/ascii.txt"
 }
