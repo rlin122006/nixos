@@ -7,6 +7,7 @@ local terminal = "kitty"
 local appLauncher = "fuzzel"
 local browser = "librewolf"
 local fileExplorer = "kitty yazi"
+local lock = "hyprlock"
 
 -- keys
 local mainMod = "SUPER"
@@ -24,6 +25,7 @@ local closeWindowBind = hl.bind(mainMod .. " + S", hl.dsp.window.close())
 -- window controls
 hl.bind(mainMod .. " + A", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + F", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd(lock))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("command hyprctl dispatch 'hl.dsp.exit()'"))
 -- SUPER + left to move, SUPER + right to resize
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
