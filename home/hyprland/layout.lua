@@ -38,3 +38,9 @@ hl.window_rule({
 
     float = true,
 })
+
+hl.window_rule({
+  match = { title = "Reverse: 1999" },
+
+  render_unfocused = true,
+})

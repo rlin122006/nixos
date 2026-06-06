@@ -19,8 +19,8 @@ PanelWindow {
 
         anchors {
             fill: parent
-            leftMargin: 4
-            rightMargin: 4
+            leftMargin: 8
+            rightMargin: 8
             topMargin: 4
         }
 
