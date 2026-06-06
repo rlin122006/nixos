@@ -66,11 +66,36 @@
       CPU_ENERGY_PERF_POLICY_ON_SAV = "power";
 
       CPU_BOOST_ON_AC = 1;
-      CPU_BOOST_ON_BAT = 1;
+      CPU_BOOST_ON_BAT = 0;
       CPU_BOOST_ON_SAV = 0;
 
       START_CHARGE_THRESH_BAT1 = 75;
       STOP_CHARGE_THRESH_BAT1 = 80;
+    };
+  };
+
+  systemd.user.services.screenPowersaver = {
+    wantedBy = [ "graphical-session.target" ];
+    serviceConfig = {
+      ExecStart = let
+        script = pkgs.writeShellScript "screenPowersaver" ''
+          prev = ""
+          while true; do
+            state=$(cat /sys/class/power_supply/ACAD/online)
+            if [ "$state" != "$prev" ]; then
+              if [ "$state" = "1" ]; then
+                ${pkgs.hyprland}/bin/hyprctl eval 'hl.monitor({output="",mode="2880x1800@120.00",position="0x0",scale=2})'
+                ${pkgs.brightnessctl}/bin/brightnessctl -d amdgpu_bl2 set 66%
+              else
+                ${pkgs.hyprland}/bin/hyprctl eval 'hl.monitor({output="",mode="2880x1800@60.00",position="0x0",scale=2})'
+                ${pkgs.brightnessctl}/bin/brightnessctl -d amdgpu_bl2 set 33%
+              fi
+            prev=$state
+          fi
+          sleep 5
+        done
+      '';
+      in "${script}";
     };
   };
 
