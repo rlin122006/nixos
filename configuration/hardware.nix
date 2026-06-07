@@ -49,6 +49,12 @@
     options = [ "subvol=@snapshots" "noatime" "compress=zstd" ];
   };
 
+  fileSystems."/home/riley/Games" = {
+    device = "/dev/mapper/cryptroot";
+    fsType = "btrfs";
+    options = [ "subvol=@games" "noatime" "compress=zstd" ];
+  };
+
   swapDevices = [{ device = "/swap/swapfile"; }];
 
   nixpkgs.hostPlatform = lib.mkDefault "x86_64-linux";
