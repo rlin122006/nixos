@@ -43,7 +43,7 @@
     options = [ "subvol=@nix" "noatime" "compress=zstd" ];
   };
 
-  fileSystems."/.snapshots" = {
+  fileSystems."/home/.snapshots" = {
     device = "/dev/mapper/cryptroot";
     fsType = "btrfs";
     options = [ "subvol=@snapshots" "noatime" "compress=zstd" ];
