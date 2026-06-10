@@ -7,7 +7,6 @@
     ".config/quickshell/Theme.qml".source = ./quickshell/Theme.qml;
     ".config/quickshell/Clock.qml".source = ./quickshell/Clock.qml;
     ".config/quickshell/Connection.qml".source = ./quickshell/Connection.qml;
-    ".config/quickshell/FocusedWindow.qml".source = ./quickshell/FocusedWindow.qml;
     ".config/quickshell/Mpris.qml".source = ./quickshell/Mpris.qml;
     ".config/quickshell/Sound.qml".source = ./quickshell/Sound.qml;
     ".config/quickshell/SystemTray.qml".source = ./quickshell/SystemTray.qml;

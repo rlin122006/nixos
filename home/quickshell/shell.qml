@@ -34,7 +34,6 @@ PanelWindow {
             }
 
             Workspaces {}
-            FocusedWindow {}
         }
 
         Row {
