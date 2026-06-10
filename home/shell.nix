@@ -5,13 +5,26 @@
     enable = true;
     
     shellAliases = {
-      update = "sudo nix flake update --flake /home/riley/nixos && sudo nixos-rebuild switch --flake /home/riley/nixos#arfarf";
-      rebuild = "sudo nixos-rebuild switch --flake /home/riley/nixos#arfarf";
       winboot = "sudo efibootmgr --bootnext 0000 && reboot";
       vi = "nvim";
     };
 
     interactiveShellInit = ''
+      function nixrebuild
+        set msg (if count $argv > /dev/null; echo $argv[1]; else echo "rebuild"; end)
+        git -C /home/riley/nixos add -A
+        git -C /home/riley/nixos commit -m $msg
+        sudo nixos-rebuild switch --flake /home/riley/nixos#arfarf
+      end
+
+      function nixupdate
+        set msg (if count $argv > /dev/null; echo $argv[1]; else echo "update"; end)
+        sudo nix flake update --flake /home/riley/nixos
+        git -C /home/riley/nixos add -A
+        git -C /home/riley/nixos commit -m $msg
+        sudo nixos-rebuild switch --flake /home/riley/nixos#arfarf
+      end
+
       set -g fish_greeting
       fastfetch
     '';
