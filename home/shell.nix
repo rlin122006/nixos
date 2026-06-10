@@ -39,6 +39,7 @@
         User = "git";
         IdentityFile = "/home/riley/.ssh/id_ed25519";
         AddKeysToAgent = "yes";
+      };
     };
   };
 
