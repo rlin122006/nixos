@@ -30,6 +30,15 @@
     '';
   };
 
+  programs.ssh = {
+    enable = true;
+    matchBlocks."github.com" = {
+      user = "git";
+      identityFile = "/home/riley/.ssh/id_ed25519";
+      addKeysToAgent = "yes";
+    };
+  };
+
   programs.starship = {
     enable = true;
     enableFishIntegration = true;
