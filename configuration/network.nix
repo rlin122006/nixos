@@ -33,6 +33,7 @@
 
   programs.ssh = {
     startAgent = true;
+
     knownHosts = {
       github = {
         hostNames = [ "github.com" ];
