@@ -32,10 +32,13 @@
 
   programs.ssh = {
     enable = true;
-    matchBlocks."github.com" = {
-      user = "git";
-      identityFile = "/home/riley/.ssh/id_ed25519";
-      addKeysToAgent = "yes";
+    enableDefaultConfig = false;
+
+    settings = {
+      "github.com" = {
+        User = "git";
+        IdentityFile = "/home/riley/.ssh/id_ed25519";
+        AddKeysToAgent = "yes";
     };
   };
 
