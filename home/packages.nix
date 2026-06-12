@@ -11,6 +11,7 @@
     librewolf
     localsend
     maple-mono.NL-NF
+    maple-mono.variable
     pavucontrol
     quickshell
     satty
