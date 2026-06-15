@@ -7,6 +7,8 @@
     shellAliases = {
       winboot = "sudo efibootmgr --bootnext 0000 && reboot";
       vi = "nvim";
+      winmount = "sudo mount /dev/nvme0n1p3 /mnt";
+      winumount = "sudo umount /mnt";
     };
 
     interactiveShellInit = ''
