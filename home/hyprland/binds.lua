@@ -58,7 +58,7 @@ hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("command hyprctl dispatch 'hl.dsp.exi
 hl.config({
     input = {
         kb_layout  = "us",
-        sensitivity = -0.7,
+        sensitivity = -0.8,
         touchpad = {
         	scroll_factor = 1.0,
         	middle_button_emulation = true,
