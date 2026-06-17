@@ -15,7 +15,7 @@
 
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
-  time.timeZone = "Asia/Taipei";
+  time.timeZone = "America/New_York";
   i18n.defaultLocale = "en_US.UTF-8";
 
   console = {
