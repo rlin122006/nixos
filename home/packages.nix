@@ -39,44 +39,7 @@
       };
 
       Preferences = {
-        "privacy.resistFingerprinting" = true; 
-        "privacy.fingerprintingProtection" = true;
-        "privacy.resistFingerprinting.letterboxing" = true;
-        "privacy.trackingprotection.enabled" = true;
-        "privacy.trackingprotection.emailtracking.enabled" = true;
-        "privacy.trackingprotection.fingerprinting.enabled" = true;
-        "privacy.trackingprotection.socialtracking.enabled" = true;
-        
-        "browser.contentblocking.category" = "strict";
-
-        "cookiebanners.service.mode" = 2;
-        "cookiebanners.service.mode.privateBrowsing" = 2;
-        "privacy.clearOnShutdown.cookies" = true;
-
-        "network.http.referer.XOriginPolicy" = 2;
-
-        "privacy.query_stripping.enabled" = true;
-        "privacy.query_stripping.enabled.pbmode" = true;
-
-        "security.OCSP.require" = true;
-
-        "network.trr.mode" = 5;
-
-        "media.autoplay.default" = 5;
-
-        "browser.urlbar.suggest.searches" = false;
-        "browser.urlbar.quicksuggest.enabled" = false;
-
-        "javascript.use_us_english_locale" = true;
-
-        "privacy.donottrackheader.enabled" = true;
-
         "ui.key.menuAccessKeyFocuses" = false; 
-
-        "browser.newtabpage.activity-stream.newtabWallpapers.enabled" = false;
-        "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
-        "browser.newtabpage.activity-stream.feeds.topsites" = false;
-        "browser.newtabpage.activity-stream.showWeather" = false;
       };
     };
   };
