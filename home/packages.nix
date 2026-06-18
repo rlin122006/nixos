@@ -24,6 +24,11 @@
     enable = true;
 
     policies = {
+      DisableFirefoxAccounts = true;
+      DisbaleTelemetry = true;
+      DisableFirefoxStudies = true;
+      DisablePocket = true;
+
       Preferences = {
         "ui.key.menuAccessKeyFocuses" = false; 
 
