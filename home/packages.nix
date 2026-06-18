@@ -29,6 +29,17 @@
       DisableFirefoxAccounts = true;
       DisablePocket = true;
 
+      FirefoxHome = {
+        Search = true;
+        TopSites = false;
+        SponsoredTopSites = false;
+        Highlights = false;
+        Pocket = false;
+        SponsoredPockets = false;
+        Snippets = false;
+        Locked = false;
+      };
+
       ExtensionSettings = {
         "uBlock@raymondhill.net" = {
           install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
