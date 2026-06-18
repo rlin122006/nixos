@@ -5,6 +5,7 @@
     btop
     efibootmgr
     git
+    gocryptfs
     hyprshot
     keepassxc
     libreoffice-fresh
