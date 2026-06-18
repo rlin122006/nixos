@@ -35,7 +35,7 @@
         "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
         "browser.newtabpage.activity-stream.feeds.topsites" = false;
         "browser.newtabpage.activity-stream.showWeather" = false;
-        "browser.newtabpage.activity-stream.system.showWeather" = false;
+        #"browser.newtabpage.activity-stream.system.showWeather" = false;
         "browser.newtabpage.activity-stream.newtabWallpaper.enabled" = false;
       };
     };
