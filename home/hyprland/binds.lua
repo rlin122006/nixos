@@ -3,7 +3,7 @@ local altMod = "ALT"
 
 local terminal = "kitty"
 local appLauncher = "fuzzel"
-local browser = "librewolf"
+local browser = "firefox"
 local lock = "hyprlock"
 
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
