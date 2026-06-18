@@ -29,11 +29,6 @@
       DisableFirefoxAccounts = true;
       DisablePocket = true;
 
-      SearchEngines = {
-        Default = "DuckDuckGo";
-        PreventInstalls = true;
-      };
-
       ExtensionSettings = {
         "uBlock@raymondhill.net" = {
           install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
