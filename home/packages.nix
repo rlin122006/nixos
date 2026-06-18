@@ -26,6 +26,9 @@
     policies = {
       Preferences = {
         "ui.key.menuAccessKeyFocuses" = false; 
+
+        #arkenfox
+        "browser.aboutConfig.showWarning" = false;
       };
     };
   };
