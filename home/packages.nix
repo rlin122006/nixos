@@ -65,6 +65,24 @@
         "captivedetect.canonicalURL" = "";
         "network.captive-portal-service.enabled" = false;
         "network.connectivity-service.enabled" = false;
+
+        "browser.urlbar.speculativeConnect.enabled" = false;
+        "browser.urlbar.quicksuggest.enabled" = false;
+        "browser.urlbar.quicksuggest.nonsponsored" = false;
+        "browser.urlbar.quicksuggest.sponsored" = false;
+        "browser.search.suggest.enabled" = false;
+        "browser.urlbar.suggest.searches" = false;
+        "browser.urlbar.trending.featureGate" = false;
+        "browser.urlbar.addons.featureGate" = false;
+        "browser.urlbar.amp.featuregate" = false;
+        "browser.urlbar.importDates.featuregate" = false;
+        "browser.urlbar.market.featuregate" = false;
+        "browser.urlbar.mdn.featuregate" = false;
+        "browser.urlbar.weather.featuregate" = false;
+        "browser.urlbar.wikipedia.featuregate" = false;
+        "browser.urlbar.yelp.featuregate" = false;
+        "browser.urlbar.yelpRealtime.featuregate" = false;
+        "browser.formfill.enable" = false;
       };
     };
   };
