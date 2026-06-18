@@ -29,17 +29,6 @@
       DisableFirefoxAccounts = true;
       DisablePocket = true;
 
-      FirefoxHome = {
-        Search = true;
-        TopSites = false;
-        SponsoredTopSites = false;
-        Highlights = false;
-        Pocket = false;
-        SponsoredPockets = false;
-        Snippets = false;
-        Locked = false;
-      };
-
       ExtensionSettings = {
         "uBlock@raymondhill.net" = {
           install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
@@ -83,6 +72,12 @@
         "privacy.donottrackheader.enabled" = true;
 
         "ui.key.menuAccessKeyFocuses" = false;
+
+        "browser.newtabpage.activity-stream.showSponsored" = false;
+        "browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
+        "browser.newtabpage.activity-stream.feeds.topsites" = false;
+        "browser.newtabpage.activity-stream.feeds.section.highlights" = false;
+        "browser.newtabpage.activity-stream.feeds.recommendationprovider" = false;
       };
     };
   };
