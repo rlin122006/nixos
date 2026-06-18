@@ -39,6 +39,19 @@
         "browser.newtabpage.activity-stream.system.showWeather" = false;
         "browser.newtabpage.activity-stream.newtabWallpaper.enabled" = false;
         "browser.newtabpage.activity-stream.newtabWallpapers.enabled" = false;
+
+        "geo.provider.use_geoclue" = false;
+
+        "extensions.getAddons.showPane" = false;
+        "extensions.htmlaboutaddons.recommendations.enabled" = false;
+        "browser.discovery.enabled" = false;
+
+        "browser.newtabpage.activity-stream.feeds.telemetry" = false;
+        "browser.newtabpage.activity-stream.telemetry" = false;
+
+        "app.shield.optoutstudies.enabled" = false;
+        "app.normandy.enabled" = false;
+        "app.normandy.api_url" = "";
       };
     };
   };
