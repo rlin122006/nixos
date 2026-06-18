@@ -84,6 +84,11 @@
         "browser.urlbar.yelp.featureGate" = false;
         "browser.urlbar.yelpRealtime.featureGate" = false;
         "browser.formfill.enable" = false;
+
+        "signon.autofillForms" = false;
+        "signon.formlessCapture.enabled" = false;
+        "network.auth.subresource-http-auth-allow" = 1;
+        "security.webauthn.always_allow_direct_attestation" = false;
       };
     };
   };
