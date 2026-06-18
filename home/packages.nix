@@ -31,6 +31,7 @@
 
       Preferences = {
         "ui.key.menuAccessKeyFocuses" = false; 
+        "browser.search.defaultenginename" = "DuckDuckGo";
 
         "browser.aboutConfig.showWarning" = false;
 
