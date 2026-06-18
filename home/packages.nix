@@ -70,6 +70,8 @@
         "javascript.use_us_english_locale" = true;
 
         "privacy.donottrackheader.enabled" = true;
+
+        "ui.key.menuAccessKeyFocuses" = false;
       };
     };
   };
