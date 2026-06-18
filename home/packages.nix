@@ -78,6 +78,8 @@
         "browser.newtabpage.activity-stream.feeds.topsites" = false;
         "browser.newtabpage.activity-stream.feeds.section.highlights" = false;
         "browser.newtabpage.activity-stream.feeds.recommendationprovider" = false;
+        "browser.newtabpage.activity-stream.feeds.weatherfeed" = false;
+        "browser.newtabpage.activity-stream.feeds.showWeather" = false;
       };
     };
   };
