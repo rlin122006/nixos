@@ -76,6 +76,7 @@
         "browser.newtabpage.activity-stream.showSponsored" = false;
         "browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
         "browser.newtabpage.activity-stream.feeds.topsites" = false;
+        "browser.newtabpage.activity-stream.feeds.sections" = false;
         "browser.newtabpage.activity-stream.feeds.section.highlights" =false;
         "browser.newtabpage.activity-stream.feeds.recommendationprovider" = false;
       };
