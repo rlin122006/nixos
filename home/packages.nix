@@ -72,9 +72,6 @@
         "privacy.donottrackheader.enabled" = true;
 
         "ui.key.menuAccessKeyFocuses" = false;
-
-        "browser.newtabpage.activity-stream.showSponsored" = false;
-        "browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
       };
     };
   };
