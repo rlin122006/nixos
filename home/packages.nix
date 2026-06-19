@@ -145,6 +145,29 @@
         "browser.contentblocking.category" = "strict";
         "privacy.trackingprotection.allow_list.baseline.enabled" = true;
         "privacy.trackingprotection.allow_list.convenience.enabled" = true;
+
+        "privacy.sanitize.sanitizeOnShutdown" = true;
+
+        "privacy.clearOnShutdown_v2.cache" = true;
+        "privacy.clearOnShutdown_v2.historyFormDataAndDownloads" = false;
+        "privacy.clearOnShutdown_v2.browsingHistoryAndDownloads" = false;
+        "privacy.clearOnShutdown_v2.downloads" = false;
+        "privacy.clearOnShutdown_v2.formdata" = true;
+        "privacy.clearOnShutdown_v2.cookiesAndStorage" = true;
+
+        "privacy.clearSiteData.cache" = true;
+        "privacy.clearSiteData.cookiesAndStorage" = false;
+        "privacy.clearSiteData.historyFormDataAndDownloads" = false;
+        "privacy.clearSiteData.browsingHistoryAndDownloads" = false;
+        "privacy.clearSiteData.formdata" = true;
+
+        "privacy.clearHistory.cache" = true;
+        "privacy.clearHistory.cookiesAndStorage" = false;
+        "privacy.clearHistory.historyFormDataAndDownloads" = false;
+        "privacy.clearHistory.browsingHistoryAndDownloads" = false;
+        "privacy.clearHistory.formdata" = true;
+
+        "privacy.sanitize.timeSpan" = 0;
       };
     };
   };
