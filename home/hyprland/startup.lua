@@ -1,7 +1,7 @@
 local hyprpaper = "systemctl --user restart hyprpaper"
 local hypridle = "systemctl --user restart hypridle"
 local bar = "qs"
-local screenPowersaver = "systemctl --user restart screenPowersaver"
+local screenPowersaver = "systemctl --user restart screen-powersaver"
 
 hl.on("hyprland.start", function ()
     hl.exec_cmd(screenPowersaver)
