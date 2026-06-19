@@ -87,10 +87,10 @@
             if [ "$state" != "$prev" ]; then
               if [ "$state" = "1" ]; then
                 ${pkgs.hyprland}/bin/hyprctl eval 'hl.monitor({output="",mode="2880x1800@120.00",position="0x0",scale=2})'
-                ${pkgs.brightnessctl}/bin/brightnessctl -d amdgpu_bl2 set 66%
+                ${pkgs.brightnessctl}/bin/brightnessctl -d amdgpu_bl1 set 66%
               else
                 ${pkgs.hyprland}/bin/hyprctl eval 'hl.monitor({output="",mode="2880x1800@60.00",position="0x0",scale=2})'
-                ${pkgs.brightnessctl}/bin/brightnessctl -d amdgpu_bl2 set 33%
+                ${pkgs.brightnessctl}/bin/brightnessctl -d amdgpu_bl1 set 33%
               fi
             prev=$state
           fi
