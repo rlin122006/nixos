@@ -76,7 +76,7 @@
     };
   };
 
-  systemd.user.services.battery-care = {
+  systemd.services.battery-care = {
     wantedBy = [ "multi-user.target" "suspend.target" "hibernate.target" "hybrid-sleep.target" ];
     after = [ "multi-user.target" "suspend.target" "hibernate.target" "hybrid-sleep.target" ];
     serviceConfig.Type = "oneshot";
