@@ -32,6 +32,7 @@
       Preferences = {
         "ui.key.menuAccessKeyFocuses" = false; 
 
+        # arkenfox
         "browser.aboutConfig.showWarning" = false;
 
         "browser.newtabpage.activity-stream.showSponsored" = false;
@@ -132,7 +133,7 @@
         "browser.contentanalysis.enabled" = false;
         "browser.contentanalysis.default_result" = 0;
         "privacy.antitracking.isolateContentScriptResources" = true;
-        "security.cps.reporting.enabled" = false;
+        "security.csp.reporting.enabled" = false;
         
         "browser.download.useDownloadDir" = false;
         "browser.download.alwaysOpenPanel" = false;
