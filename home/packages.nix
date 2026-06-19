@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   home.packages = with pkgs; [
@@ -18,6 +18,8 @@
     spotify
     vesktop
     vlc
+
+    inputs.pineconemc.packages.${pkgs.system}.pineconemc
   ];
 
   programs.firefox = {
