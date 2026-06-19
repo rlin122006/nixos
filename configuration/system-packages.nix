@@ -16,6 +16,8 @@ in {
 
   environment.systemPackages = with pkgs; [
     micro
+
+    inputs.pineconemc.packages.${pkgs.system}.pineconemc
   ];
 
   nixpkgs.overlays = [(final: prev: {

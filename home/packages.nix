@@ -18,8 +18,6 @@
     spotify
     vesktop
     vlc
-
-    inputs.pineconemc.packages.${pkgs.system}.pineconemc
   ];
 
   programs.firefox = {
