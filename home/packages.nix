@@ -67,6 +67,16 @@
 
         "browser.safebrowsing.downloads.remote.enabled" = false;
 
+        "network.prefetch-next" = false;
+        "network.dns.disablePrefetch" = true;
+        "network.dns.disablePrefetchFromHTTPS" = true;
+        "network.http.speculative-parallel-limit" = 0;
+        "browser.places.speculativeConnect.enabled" = false;
+
+        "network.proxy.socks_remote_dns" = true;
+        "network.file.disable_unc_paths" = true;
+        "network.gio.supported-protocols" = "";
+
         "browser.urlbar.speculativeConnect.enabled" = false;
         "browser.urlbar.quicksuggest.enabled" = false;
         "browser.urlbar.quicksuggest.nonsponsored" = false;
@@ -104,6 +114,25 @@
         "browser.xul.error_pages.expert_bad_cert" = true;
 
         "network.http.referer.XOriginTrimmingPolicy" = 2;
+
+        "media.peerconnection.ice.proxy_only_if_behind_proxy" = true;
+        "media.peerconnection.ice.default_address_only" = true;
+
+        "dom.disable_window_move_resize" = true;
+
+        "browser.download.start_downloads_in_tmp_dir" = true;
+        "browser.helperApps.deleteTempFileOnExit" = true;
+        "browser.uitour.enabled" = false;
+        "devtools.debugger.remote-enabled" = false;
+        "permissions.manager.defaultUrl" = "";
+        "network.IDN_show_punycode" = true;
+        "pdfjs.disabled" = false;
+        "pdfjs.enableScripting" = false;
+        "browser.tabs.searchclipboardfor.middleclick" = false;
+        "browser.contentanalysis.enabled" = false;
+        "browser.contentanalysis.default_result" = 0;
+        "privacy.antitracking.isolateContentScriptResources" = true;
+        "security.cps.reporting.enabled" = false;
       };
     };
   };
