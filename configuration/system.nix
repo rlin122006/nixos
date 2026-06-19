@@ -31,6 +31,8 @@
     shell = pkgs.fish;
   };
 
+  programs.appimage.enable = true;
+
   services.tlp = {
     enable = true;
 
