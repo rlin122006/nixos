@@ -43,7 +43,6 @@
         "browser.newtabpage.activity-stream.feeds.topsites" = false;
         "browser.newtabpage.activity-stream.showWeather" = false;
         "browser.newtabpage.activity-stream.system.showWeather" = false;
-        "browser.newtabpage.activity-stream.newtabWallpaper.enabled" = false;
 
         "geo.provider.use_geoclue" = false;
 
@@ -65,6 +64,8 @@
         "captivedetect.canonicalURL" = "";
         "network.captive-portal-service.enabled" = false;
         "network.connectivity-service.enabled" = false;
+
+        "browser.safebrowsing.downloads.remote.enabled" = false;
 
         "browser.urlbar.speculativeConnect.enabled" = false;
         "browser.urlbar.quicksuggest.enabled" = false;
