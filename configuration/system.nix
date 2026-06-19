@@ -76,6 +76,15 @@
     };
   };
 
+  systemd.user.services.battery-care = {
+    wantedBy = [ "multi-user.target" "suspend.target" "hibernate.target" "hybrid-sleep.target" ];
+    after = [ "multi-user.target" "suspend.target" "hibernate.target" "hybrid-sleep.target" ];
+    serviceConfig.Type = "oneshot";
+    script = ''
+      echo 80 > /sys/class/power_supply/BAT1/charge_control_end_threshold
+    '';
+  };
+
   systemd.user.services.screen-powersaver = {
     wantedBy = [ "graphical-session.target" ];
     serviceConfig = {
