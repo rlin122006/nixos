@@ -133,6 +133,18 @@
         "browser.contentanalysis.default_result" = 0;
         "privacy.antitracking.isolateContentScriptResources" = true;
         "security.cps.reporting.enabled" = false;
+        
+        "browser.download.useDownloadDir" = false;
+        "browser.download.alwaysOpenPanel" = false;
+        "browser.download.manager.addToRecentDocs" = false;
+        "browser.download.always_ask_before_handling_new_types" = true;
+
+        "extensions.enabledScopes" = 5;
+        "extensions.postDownloadThirdPartyPrompt" = false;
+
+        "browser.contentblocking.category" = "strict";
+        "privacy.trackingprotection.allow_list.baseline.enabled" = true;
+        "privacy.trackingprotection.allow_list.convenience.enabled" = true;
       };
     };
   };
