@@ -168,6 +168,14 @@
         "privacy.clearHistory.formdata" = true;
 
         "privacy.sanitize.timeSpan" = 0;
+
+        "privacy.window.maxInnerWidth" = 1600;
+        "privacy.window.maxInnerHeight" = 900;
+        "privacy.resistFingerprinting.block.mozAddonManager" = true;
+        "privacy.spoof_english" = 1;
+        "widget.non-native-theme.use-theme-accent" = false;
+        "browser.link.open_newwindow" = 3;
+        "browser.link.open_newwindow.restriction" = 0;
       };
     };
   };
