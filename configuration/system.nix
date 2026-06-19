@@ -76,11 +76,11 @@
     };
   };
 
-  systemd.user.services.screenPowersaver = {
+  systemd.user.services.screen-powersaver = {
     wantedBy = [ "graphical-session.target" ];
     serviceConfig = {
       ExecStart = let
-        script = pkgs.writeShellScript "screenPowersaver" ''
+        script = pkgs.writeShellScript "screen-powersaver" ''
           prev = ""
           while true; do
             state=$(cat /sys/class/power_supply/ACAD/online)
