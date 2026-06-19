@@ -44,7 +44,6 @@
         "browser.newtabpage.activity-stream.showWeather" = false;
         "browser.newtabpage.activity-stream.system.showWeather" = false;
         "browser.newtabpage.activity-stream.newtabWallpaper.enabled" = false;
-        "browser.newtabpage.activity-stream.newtabWallpapers.enabled" = false;
 
         "geo.provider.use_geoclue" = false;
 
