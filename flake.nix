@@ -2,14 +2,11 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixpkgs-dwproton.url = "github:NixOS/nixpkgs/439473e"; # 10.0-26
+    pineconemc.url = "github:Impqxr/LauncherNix";
 
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    pineconemc = {
-      url = "github:Impqxr/LauncherNix";
     };
   };	
   outputs = { self, nixpkgs, home-manager, pineconemc, ... }@inputs: {
