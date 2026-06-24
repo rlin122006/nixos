@@ -28,7 +28,11 @@
       end
 
       set -g fish_greeting
-      fastfetch
+
+      if status is-interactive
+        and not string match -q '/dev/tty*' (tty)
+        fastfetch
+      end
     '';
   };
 
