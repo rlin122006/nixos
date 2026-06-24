@@ -71,7 +71,7 @@ Rectangle {
 
     // blocked sources
     property var player: {
-        const blocked = ["librewolf"]
+        const blocked = ["firefox"]
         const active = Mpris.players.values.filter(p => {
             if (blocked.includes(p.desktopEntry)) return false
             const title = p.trackTitle?.trim()
