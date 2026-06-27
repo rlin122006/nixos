@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "https://github.com/palera1n/palera1n/releases/download/v${version}/palera1n-linux-x86_64";
-    hash = "sha256-037c2b398bc13bab277ae9abb841ae3c5c5bc89e22332bbcbcd8d04b68214292";
+    hash = "sha256-A3wrOYvBO6sneumruEGuPFxbyJ4iMyu8vNjQS2ghQpI=";
   };
 
   nativeBuildInputs = [ autoPatchelfHook ];
