@@ -1,4 +1,4 @@
-{ lib, stdenv, fetchcurl, autoPatchelfHook }:
+{ lib, stdenv, fetchurl, autoPatchelfHook }:
 
 stdenv.mkDerivation rec {
   pname = "palera1n";
