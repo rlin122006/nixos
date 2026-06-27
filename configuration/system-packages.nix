@@ -18,6 +18,7 @@ in {
     micro
 
     inputs.pineconemc.packages.${pkgs.stdenv.hostPlatform.system}.pineconemc
+    (callPackage ./palera1n.nix {})
   ];
 
   nixpkgs.overlays = [(final: prev: {

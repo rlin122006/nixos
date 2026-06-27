@@ -31,8 +31,6 @@
     shell = pkgs.fish;
   };
 
-  programs.appimage.enable = true;
-
   services.tlp = {
     enable = true;
 
@@ -128,6 +126,8 @@
       };
     };
   };
+
+  services.usbmuxd.enable = true;
 
   nix.gc = {
     automatic = true;
