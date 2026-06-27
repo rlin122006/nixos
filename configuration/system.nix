@@ -129,6 +129,11 @@
 
   services.usbmuxd.enable = true;
 
+  services.udev.extraRules = ''
+    SUBSYSTEM=="usb", ATTR{idVendor}=="05ac", MODE="0666"
+    SUBSYSTEM=="usb", ATTR{idVendor}=="1227", MODE="0666"
+  '';
+
   nix.gc = {
     automatic = true;
     dates = "daily";
