@@ -16,6 +16,7 @@ in {
 
   environment.systemPackages = with pkgs; [
     micro
+    usbmuxd
 
     inputs.pineconemc.packages.${pkgs.stdenv.hostPlatform.system}.pineconemc
     (callPackage ./palera1n.nix {})
