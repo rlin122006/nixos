@@ -17,6 +17,7 @@
     satty
     signal-desktop
     spotify
+    usbmuxd
     vesktop
     vlc
   ];
