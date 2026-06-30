@@ -2,7 +2,6 @@
 let 
   pkgs-dwproton = import inputs.nixpkgs-dwproton { 
     system = pkgs.stdenv.hostPlatform.system;
-    config.permittedInsecurePackages = [ "pnpm-10.29.2" ];
   };
 in {
   programs = {
@@ -23,6 +22,10 @@ in {
 
     inputs.pineconemc.packages.${pkgs.stdenv.hostPlatform.system}.pineconemc
     (callPackage ./palera1n.nix {})
+  ];
+
+  nixpkgs.config.permittedInsecurePackages = [
+    "pnpm-10.29.2"
   ];
 
   nixpkgs.overlays = [(final: prev: {
