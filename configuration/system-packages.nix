@@ -18,8 +18,6 @@ in {
 
   environment.systemPackages = with pkgs; [
     micro
-
-    inputs.pineconemc.packages.${pkgs.stdenv.hostPlatform.system}.pineconemc
   ];
 
   nixpkgs.config.permittedInsecurePackages = [

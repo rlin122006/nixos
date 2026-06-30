@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ inputs, pkgs, ... }:
 
 {
   home.packages = with pkgs; [
@@ -13,6 +13,7 @@
     maple-mono.NL-NF
     (callPackage ./palera1n.nix {})
     pavucontrol
+    inputs.pineconemc.packages.${pkgs.stdenv.hostPlatform.system}.pineconemc
     quickshell
     satty
     signal-desktop
