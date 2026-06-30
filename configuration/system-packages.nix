@@ -1,6 +1,9 @@
 { inputs, pkgs, ... }:
 let 
-  pkgs-dwproton = import inputs.nixpkgs-dwproton { system = pkgs.stdenv.hostPlatform.system; };
+  pkgs-dwproton = import inputs.nixpkgs-dwproton { 
+    system = pkgs.stdenv.hostPlatform.system;
+    config.permittedInsecurePackages = [ "pnpm-10.29.2" ];
+  };
 in {
   programs = {
     fish.enable = true;
