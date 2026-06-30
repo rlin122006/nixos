@@ -21,7 +21,6 @@ in {
     usbmuxd
 
     inputs.pineconemc.packages.${pkgs.stdenv.hostPlatform.system}.pineconemc
-    (callPackage ./palera1n.nix {})
   ];
 
   nixpkgs.config.permittedInsecurePackages = [

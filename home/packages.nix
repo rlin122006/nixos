@@ -11,6 +11,7 @@
     libreoffice-fresh
     localsend
     maple-mono.NL-NF
+    (callPackage ./palera1n.nix {})
     pavucontrol
     quickshell
     satty
