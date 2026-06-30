@@ -22,6 +22,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             users.riley = ./home.nix;
+            extraSpecialArgs = { inherit inputs; };
           };
         }
         { 
