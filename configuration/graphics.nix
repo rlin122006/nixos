@@ -16,7 +16,7 @@
 
     powerManagement = {
       enable = true;
-        finegrained = false;
+        finegrained = flase;
     };
   };
 
