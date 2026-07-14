@@ -21,14 +21,14 @@
       };
 
       background = {
-        monitor = "";
+        monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
         path = "~/nixos/home/hypr-services/wallpaper-1200.jpg";
         blur_passes = 3;
         blur_size = 8;
       };
 
       input-field = {
-        monitor = "";
+        monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
         size = "20%, 5%";
         outline_thickness = 4;
         inner_color = "rgba(0, 0, 0, 0.0)";
@@ -55,44 +55,44 @@
 
       label = [
         {
-          monitor = "";
+          monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
           text = [ ''cmd[update:1000] echo "<b><big> $(date +"%H") </big></b>"''];
           font_size = 175;
           font_family = "Maple Mono NL NF";
-          color = "rgba(e5e5e5ff)";
+          color = "rgba(ffb0ffff)";
 
           position = "0, 435";
           halign = "center";
           valign = "center";
         }
         {
-          monitor = "";
+          monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
           text = [ ''cmd[update:1000] echo "<b><big> $(date +"%M") </big></b>"''];
           font_size = 175;
           font_family = "Maple Mono NL NF";
-          color = "rgba(e5e5e5ff)";
+          color = "rgba(ffb0ffff)";
 
           position = "0, 235";
           halign = "center";
           valign = "center";
         }
         {
-          monitor = "";
+          monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
           text = [ ''cmd[update:18000000] echo "<b><big> "$(date +'%A')" </big></b>"'' ];
           font_size = 32;
           font_family = "Maple Mono NL NF";
-          color = "rgba(e5e5e5ff)";
+          color = "rgba(ffb0ffff)";
 
           position = "0, 110";
           halign = "center";
           valign = "center";
         }
         {
-          monitor = "";
+          monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
           text = [ ''cmd[update:18000000] echo "<b> "$(date +'%d %b')" </b>"'' ];
           font_size = 28;
           font_family = "Maple Mono NL NF";
-          color = "rgba(e5e5e5ff)";
+          color = "rgba(ffb0ffff)";
 
           position = "0, 70";
           halign = "center";
