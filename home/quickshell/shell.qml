@@ -2,7 +2,16 @@
 import Quickshell
 import QtQuick
 
+ShellRoot {
+    Variants {
+        model: Quickshell.screens
+    }
+}
+
 PanelWindow {
+    required property var modelData
+    screen: modelData
+
     implicitWidth: Screen.width
     implicitHeight: 34
     color: "transparent"
