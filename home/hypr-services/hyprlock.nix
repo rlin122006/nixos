@@ -140,7 +140,7 @@
           valign = "center";
         }
         {
-          monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572;
+          monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572";
           text = [ ''cmd[update:18000000] echo "<b> "$(date +'%d %b')" </b>"'' ];
           font_size = 28;
           font_family = "Maple Mono NL NF";
