@@ -20,13 +20,21 @@
         ];
       };
 
-      background = {
-        monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
-        path = "~/nixos/home/hypr-services/wallpaper-1200.jpg";
-        blur_passes = 3;
-        blur_size = 8;
-      };
-
+      background = [
+        {
+          monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
+          path = "~/nixos/home/hypr-services/wallpaper-1200.jpg";
+          blur_passes = 3;
+          blur_size = 8;
+        }
+        {
+          monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572";
+          path = "~/nixos/home/hypr-services/wallpaper-1080.jpg";
+          blur_passes = 3;
+          blur_size = 8;
+        }
+      ];
+      
       input-field = {
         monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
         size = "20%, 5%";
