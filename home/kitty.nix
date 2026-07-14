@@ -32,45 +32,45 @@
       background_opacity = 0.50;
       dynamic_background_opacity = "yes";
 
-      cursor = "#b9b9b9";
-      cursor_text_color = "#101010";
-      foreground = "#b9b9b9";
-      selection_foreground = "#101010";
-      background = "#101010";
-      selection_background = "#b9b9b9";
+      cursor = "#21f6bc";
+      cursor_text_color = "#999999";
+      foreground = "#e5e5e5";
+      selection_foreground = "#332a57";
+      background = "#332a57";
+      selection_background = "#e5e5e5";
       url_color = "#0000ee";
 
       # black
-      color0 = "#101010";
-      color8 = "#525252";
+      color0 = "#000000";
+      color8 = "#595959";
 
       # red
-      color1 = "#7c7c7c";
-      color9 = "#7c7c7c";
+      color1 = "#ff7092";
+      color9 = "#ff8aa4";
 
       # green
-      color2 = "#8e8e8e";
-      color10 = "#a6e3a1";
+      color2 = "#00fbac";
+      color10 = "#21f6bc";
 
       # yellow
-      color3 = "#a0a0a0";
-      color11 = "#a0a0a0";
+      color3 = "#fffa6a";
+      color11 = "#fff787";
 
       # blue
-      color4 = "#686868";
-      color12 = "#686868";
+      color4 = "#00bfff";
+      color12 = "#1bccfd";
 
       # magenta
-      color5 = "#747474";
-      color13 = "#747474";
+      color5 = "#df95ff";
+      color13 = "#e6aefe";
 
       # cyan
-      color6 = "#868686";
-      color14 = "#868686";
+      color6 = "#86cbfe";
+      color14 = "#99d6fc";
 
       # white
-      color7 = "#b9b9b9";
-      color15 = "#f7f7f7";
+      color7 = "#ffffff";
+      color15 = "#ffffff";
     };
   };
 }
