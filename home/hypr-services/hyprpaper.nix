@@ -21,7 +21,7 @@
           path = "~/nixos/home/hypr-services/lofi-girl-1080.pnh";
           fit_mode = "fill";
         }
-      ]
+      ];
     };
   };
 }
