@@ -20,4 +20,6 @@
       restore_paused "yes"
     '';
   };
+
+  services.mpd-mpris.enable = true;
 }
