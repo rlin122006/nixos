@@ -82,7 +82,7 @@
           dots_size = 0.4;
           dots_spacing = 0.3;
 
-          position = "0, 300";
+          position = "0, 150";
           halign = "center";
           valign = "bottom";
         }
