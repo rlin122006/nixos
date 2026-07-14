@@ -9,7 +9,7 @@
 
       wallpaper = [
         {
-          monitor = "";
+          monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
           path = "~/nixos/home/hypr-services/wallpaper-1200.jpg";
           fit_mode = "fill";
         }
