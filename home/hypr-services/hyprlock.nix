@@ -35,31 +35,58 @@
         }
       ];
       
-      input-field = {
-        monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
-        size = "20%, 5%";
-        outline_thickness = 4;
-        inner_color = "rgba(0, 0, 0, 0.0)";
-        fade_on_empty = false;
-        rounding = 8; 
+      input-field = [
+        {
+          monitor = "desc:Samsung Display Corp. ATNA40CU05-0";
+          size = "20%, 5%";
+          outline_thickness = 4;
+          inner_color = "rgba(0, 0, 0, 0.0)";
+          fade_on_empty = false;
+          rounding = 8; 
 
-        outer_color = "rgba(ffb0ffff)";
-        check_color = "rgba(00fbacff)";
-        fail_color = "rgba(ff7092ff)";
-        font_color = "rgba(e5e5e5ff)";
+          outer_color = "rgba(ffb0ffff)";
+          check_color = "rgba(00fbacff)";
+          fail_color = "rgba(ff7092ff)";
+          font_color = "rgba(e5e5e5ff)";
 
-        font_family = "Maple Mono NL NF Bold";
-        placeholder_text = "haiiii!!!";
-        fail_text = "try again :3c";
+          font_family = "Maple Mono NL NF Bold";
+          placeholder_text = "haiiii!!!";
+          fail_text = "try again :3c";
 
-        dots_text_format = "*";
-        dots_size = 0.4;
-        dots_spacing = 0.3;
+          dots_text_format = "*";
+          dots_size = 0.4;
+          dots_spacing = 0.3;
 
-        position = "0, 300";
-        halign = "center";
-        valign = "bottom";
-      };
+          position = "0, 300";
+          halign = "center";
+          valign = "bottom";
+        }
+        {
+          monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572";
+          size = "20%, 5%";
+          outline_thickness = 4;
+          inner_color = "rgba(0, 0, 0, 0.0)";
+          fade_on_empty = false;
+          rounding = 8; 
+
+          outer_color = "rgba(ffb0ffff)";
+          check_color = "rgba(00fbacff)";
+          fail_color = "rgba(ff7092ff)";
+          font_color = "rgba(e5e5e5ff)";
+
+          font_family = "Maple Mono NL NF Bold";
+          placeholder_text = "haiiii!!!";
+          fail_text = "try again :3c";
+
+          dots_text_format = "*";
+          dots_size = 0.4;
+          dots_spacing = 0.3;
+
+          position = "0, 300";
+          halign = "center";
+          valign = "bottom";
+        }
+      ];
 
       label = [
         {
