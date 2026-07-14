@@ -12,15 +12,15 @@
       };
 
       colors = {
-        background = "10101080";
-        text = "b9b9b9ff";
-        prompt = "b9b9b9ff";
-        input = "b9b9b9ff";
-        match = "b9b9b9ff";
-        selection = "b9b9b9ff";
-        selection-text = "10101080";
-        selection-match = "10101080";
-        border = "f7f7f7ff";
+        background = "332a5780";
+        text = "e5e5e5ff";
+        prompt = "e5e5e5ff";
+        input = "e5e5e5ff";
+        match = "e5e5e5ff";
+        selection = "e5e5e5ff";
+        selection-text = "332a5780";
+        selection-match = "332a5780";
+        border = "df95ffff";
       };
 
       border = {
