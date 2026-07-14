@@ -172,7 +172,7 @@
       modal_backdrop: false,
       tab_bar: (active_style: (fg: "black", bg: "#f5c2e7", modifiers: "Bold"), inactive_style: ()),
       borders_style: (fg: "#e5e5e5"),
-      highlighted_item_style: (fg: "#f7f7f7", modifiers: "Bold"),
+      highlighted_item_style: (fg: "#e5e5e5", modifiers: "Bold"),
       current_item_style: (fg: "#332a57", bg: "#e5e5e5", modifiers: "Bold"),
       highlight_border_style: (fg: "#f5c2e7"),
 
