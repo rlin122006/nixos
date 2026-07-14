@@ -153,42 +153,42 @@
       progress_bar: (
         symbols: ["", "", "⭘", " ", " "],
         track_style: (bg: None),
-        elapsed_style: (fg: "#b9b9b9", bg: None),
-        thumb_style: (fg: "#b9b9b9", bg: None),
+        elapsed_style: (fg: "#e5e5e5", bg: None),
+        thumb_style: (fg: "#e5e5e5", bg: None),
       ),
 
       scrollbar: (
         symbols: ["│", "█", "▲", "▼"],
-        track_style: (fg: "#b9b9b9"),
-        ends_style: (fg: "#b9b9b9"),
-        thumb_style: (fg: "#b9b9b9"),
+        track_style: (fg: "#e5e5e5"),
+        ends_style: (fg: "#e5e5e5"),
+        thumb_style: (fg: "#e5e5e5"),
       ),
 
       browser_column_widths: [20, 38, 42],
-      text_color: "#b9b9b9",
+      text_color: "#e5e5e5",
       background_color: None,
       header_background_color: None,
       modal_background_color: None,
       modal_backdrop: false,
       tab_bar: (active_style: (fg: "black", bg: "#f5c2e7", modifiers: "Bold"), inactive_style: ()),
-      borders_style: (fg: "#b9b9b9"),
+      borders_style: (fg: "#e5e5e5"),
       highlighted_item_style: (fg: "#f7f7f7", modifiers: "Bold"),
-      current_item_style: (fg: "#101010", bg: "#b9b9b9", modifiers: "Bold"),
+      current_item_style: (fg: "#332a57", bg: "#e5e5e5", modifiers: "Bold"),
       highlight_border_style: (fg: "#f5c2e7"),
 
       song_table_format: [
         (
-          prop: (kind: Property(Artist), style: (fg: "#b9b9b9"), default: (kind: Text("Unknown"))),
+          prop: (kind: Property(Artist), style: (fg: "#e5e5e5"), default: (kind: Text("Unknown"))),
           width: "50%",
           alignment: Right,
         ),
         (
-          prop: (kind: Text("-"), style: (fg: "#b9b9b9"), default: (kind: Text("Unknown"))),
+          prop: (kind: Text("-"), style: (fg: "#e5e5e5"), default: (kind: Text("Unknown"))),
           width: "1",
           alignment: Center,
         ),
         (
-          prop: (kind: Property(Title), style: (fg: "#b9b9b9"), default: (kind: Text("Unknown"))),
+          prop: (kind: Property(Title), style: (fg: "#e5e5e5"), default: (kind: Text("Unknown"))),
           width: "50%",
         ),
       ],
@@ -197,25 +197,25 @@
         rows: [
           (
             left: [
-              (kind: Text("["), style: (fg: "#b9b9b9", modifiers: "Bold")),
-              (kind: Property(Status(State)), style: (fg: "#b9b9b9", modifiers: "Bold")),
-              (kind: Text("]"), style: (fg: "#b9b9b9", modifiers: "Bold"))
+              (kind: Text("["), style: (fg: "#e5e5e5", modifiers: "Bold")),
+              (kind: Property(Status(State)), style: (fg: "#e5e5e5", modifiers: "Bold")),
+              (kind: Text("]"), style: (fg: "#e5e5e5", modifiers: "Bold"))
             ],
 
             center: [
-              (kind: Property(Song(Artist)), style: (fg: "#b9b9b9", modifiers: "Bold"),
-                default: (kind: Text("Unknown"), style: (fg: "#b9b9b9", modifiers: "Bold"))
+              (kind: Property(Song(Artist)), style: (fg: "#e5e5e5", modifiers: "Bold"),
+                default: (kind: Text("Unknown"), style: (fg: "#e5e5e5", modifiers: "Bold"))
               ),
               (kind: Text(" - ")),
-              (kind: Property(Song(Title)), style: (fg: "#b9b9b9", modifiers: "Bold"),
-                default: (kind: Text("No Song"), style: (fg: "#b9b9b9", modifiers: "Bold"))
+              (kind: Property(Song(Title)), style: (fg: "#e5e5e5", modifiers: "Bold"),
+                default: (kind: Text("No Song"), style: (fg: "#e5e5e5", modifiers: "Bold"))
               )
             ],
 
             right: [
-              (kind: Text("Vol: "), style: (fg: "#b9b9b9", modifiers: "Bold")),
-              (kind: Property(Status(Volume)), style: (fg: "#b9b9b9", modifiers: "Bold")),
-              (kind: Text("% "), style: (fg: "#b9b9b9", modifiers: "Bold"))
+              (kind: Text("Vol: "), style: (fg: "#e5e5e5", modifiers: "Bold")),
+              (kind: Property(Status(Volume)), style: (fg: "#e5e5e5", modifiers: "Bold")),
+              (kind: Text("% "), style: (fg: "#e5e5e5", modifiers: "Bold"))
             ]
           )
         ],
