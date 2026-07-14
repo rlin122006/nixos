@@ -24,7 +24,7 @@
       };
 
       border = {
-        width = 1;
+        width = 2;
         radius = 16;
         selection-radius = 6;
       };
