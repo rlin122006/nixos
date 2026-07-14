@@ -16,7 +16,7 @@
       modules = [
         {
           type = "title";
-          format = "{#red}┌────────────────{#magenta}{user-name}{#white}@{#magenta}{host-name}{#red} ────────────────┐";
+          format = "{#red}┌──────────────── {#magenta}{user-name}{#white}@{#magenta}{host-name}{#red} ────────────────┐";
         }
         {
           type = "host"; 
