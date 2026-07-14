@@ -16,7 +16,7 @@
       modules = [
         {
           type = "title";
-          format = "{#blue}┌──────────────── {#white}{user-name}@{host-name}{#blue} ────────────────┐";
+          format = "{#red}┌──────────────── {#magenta}{user-name}@{host-name}{#red} ────────────────┐";
         }
         {
           type = "host"; 
@@ -62,7 +62,7 @@
         }
         {
           type = "custom";
-          format = "{#blue}└──────────────────────────────────────────────┘";
+          format = "{#red}└──────────────────────────────────────────────┘";
         }
         {
           type = "colors";
