@@ -13,13 +13,13 @@
       on-touch = "invoke-default-action";
 
       font = "Maple Mono NL NF";
-      background-color = "#10101080";
-      text-color = "#b9b9b9ff";
+      background-color = "#332a5780";
+      text-color = "#e5e5e5ff";
       width = 400;
       height = 100;
       border-size = 1;
       border-radius = 8;
-      border-color = "#f7f7f7ff";
+      border-color = "#df95ffff";
       actions = 1;
       history = 1;
       text-alignment = "left";
