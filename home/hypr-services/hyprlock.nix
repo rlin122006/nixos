@@ -113,7 +113,7 @@
           font_family = "Maple Mono NL NF";
           color = "rgba(e5e5e5ff)";
 
-          position = "0, 435";
+          position = "0, 218";
           halign = "center";
           valign = "center";
         }
@@ -124,7 +124,7 @@
           font_family = "Maple Mono NL NF";
           color = "rgba(e5e5e5ff)";
 
-          position = "0, 235";
+          position = "0, 118";
           halign = "center";
           valign = "center";
         }
@@ -135,7 +135,7 @@
           font_family = "Maple Mono NL NF";
           color = "rgba(e5e5e5ff)";
 
-          position = "0, 110";
+          position = "0, 55";
           halign = "center";
           valign = "center";
         }
@@ -146,7 +146,7 @@
           font_family = "Maple Mono NL NF";
           color = "rgba(e5e5e5ff)";
 
-          position = "0, 70";
+          position = "0, 35";
           halign = "center";
           valign = "center";
         }
