@@ -21,44 +21,44 @@
         {
           type = "host"; 
           key = "󰌢  PC";
-          keyColor = "blue"; 
+          keyColor = "red"; 
           format = "{1}";
         }
         { 
           type = "os"; 
           key = "│ ├󰌽 "; 
-          keyColor = "blue";
+          keyColor = "red";
           format = "{name} {version}";
         }
         { 
           type = "packages";
           key = "│ ├󰏗 "; 
-          keyColor = "blue";
+          keyColor = "red";
           format = "{nix-system} (system), {nix-user} (user)";
         }
         { 
           type = "wm";
           key = "│ ├󱂬 "; 
-          keyColor = "blue";
+          keyColor = "red";
         }
         { 
           type = "cpu";
           key = "│ ├󰻠 ";
           format = "{name}";
-          keyColor = "blue";
+          keyColor = "red";
         }
         { 
           type = "gpu";
           key = "│ ├󰍹 ";
           format = "{name}";
-          keyColor = "blue";
+          keyColor = "red";
           hideType = "integrated";
         }
         { 
           type = "disk";
           key = "└ └󰋊 ";
           format = "{size-used}/{size-total} ({size-percentage})";
-          keyColor = "blue";
+          keyColor = "red";
         }
         {
           type = "custom";
