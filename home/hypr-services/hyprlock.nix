@@ -59,7 +59,7 @@
           text = [ ''cmd[update:1000] echo "<b><big> $(date +"%H") </big></b>"''];
           font_size = 175;
           font_family = "Maple Mono NL NF";
-          color = "rgba(ffb0ffff)";
+          color = "rgba(e5e5e5ff)";
 
           position = "0, 435";
           halign = "center";
@@ -70,7 +70,7 @@
           text = [ ''cmd[update:1000] echo "<b><big> $(date +"%M") </big></b>"''];
           font_size = 175;
           font_family = "Maple Mono NL NF";
-          color = "rgba(ffb0ffff)";
+          color = "rgba(e5e5e5ff)";
 
           position = "0, 235";
           halign = "center";
@@ -81,7 +81,7 @@
           text = [ ''cmd[update:18000000] echo "<b><big> "$(date +'%A')" </big></b>"'' ];
           font_size = 32;
           font_family = "Maple Mono NL NF";
-          color = "rgba(ffb0ffff)";
+          color = "rgba(e5e5e5ff)";
 
           position = "0, 110";
           halign = "center";
@@ -92,7 +92,7 @@
           text = [ ''cmd[update:18000000] echo "<b> "$(date +'%d %b')" </b>"'' ];
           font_size = 28;
           font_family = "Maple Mono NL NF";
-          color = "rgba(ffb0ffff)";
+          color = "rgba(e5e5e5ff)";
 
           position = "0, 70";
           halign = "center";
