@@ -4,7 +4,7 @@ import QtQuick
 QtObject {
     readonly property string mapleMono: "Maple Mono NL NF SemiBold"
     readonly property color backgroundColor: "#802b2542"
-    readonly property color moduleBackgroundColor: "#ff332a57"
+    readonly property color moduleBackgroundColor: "#ff433a67"
     readonly property color highlightModuleBackgroundColor : "#ffe5e5e5"
     readonly property color textColor: "#ffe5e5e5"
     readonly property color highlightTextColor: "#ff332a57"
