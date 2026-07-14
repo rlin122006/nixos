@@ -22,7 +22,7 @@
 
       background = {
         monitor = "";
-        path = "~/nixos/home/hypr-services/lofi-girl.png";
+        path = "~/nixos/home/hypr-services/wallpaper-1200.jpg";
         blur_passes = 3;
         blur_size = 8;
       };
