@@ -1,5 +1,5 @@
 hl.monitor({
-    output   = "",
+    output   = "desc:Samsung Display Corp. ATNA40CU05-0",
     mode     = "2880x1800@120.00",
     position = "0x0",
     scale    = "2",
