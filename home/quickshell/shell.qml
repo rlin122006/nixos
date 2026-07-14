@@ -5,70 +5,70 @@ import QtQuick
 ShellRoot {
     Variants {
         model: Quickshell.screens
-    }
-}
 
-PanelWindow {
-    required property var modelData
-    screen: modelData
+        PanelWindow {
+            required property var modelData
+            screen: modelData
 
-    implicitWidth: Screen.width
-    implicitHeight: 34
-    color: "transparent"
-
-    anchors {
-        top: true
-        left: true
-        right: true
-    }
-
-    Rectangle {
-        color: Theme.backgroundColor
-        radius: 16
-
-        anchors {
-            fill: parent
-            leftMargin: 8
-            rightMargin: 8
-            topMargin: 4
-        }
-
-        Row {
-            spacing: 16
+            implicitWidth: Screen.width
+            implicitHeight: 34
+            color: "transparent"
 
             anchors {
-                left: parent.left
-                verticalCenter: parent.verticalCenter
-                leftMargin: 16
+                top: true
+                left: true
+                right: true
             }
 
-            Workspaces {}
-        }
+            Rectangle {
+                color: Theme.backgroundColor
+                radius: 16
 
-        Row {
-            spacing: 16
+                anchors {
+                    fill: parent
+                    leftMargin: 8
+                    rightMargin: 8
+                    topMargin: 4
+                }
 
-            anchors {
-                centerIn: parent
+                Row {
+                    spacing: 16
+
+                    anchors {
+                        left: parent.left
+                        verticalCenter: parent.verticalCenter
+                        leftMargin: 16
+                    }
+
+                    Workspaces {}
+                }
+
+                Row {
+                    spacing: 16
+
+                    anchors {
+                        centerIn: parent
+                    }
+
+                    Mpris{}
+                }
+
+                Row {
+                    spacing: 16
+
+                    anchors {
+                        right: parent.right
+                        verticalCenter: parent.verticalCenter
+                        rightMargin: 16
+                    }
+
+                    SystemTray {}
+                    Connection {}
+                    Sound {}
+                    Battery {}
+                    Clock {}
+                }
             }
-
-            Mpris{}
-        }
-
-        Row {
-            spacing: 16
-
-            anchors {
-                right: parent.right
-                verticalCenter: parent.verticalCenter
-                rightMargin: 16
-            }
-
-            SystemTray {}
-            Connection {}
-            Sound {}
-            Battery {}
-            Clock {}
         }
     }
 }
