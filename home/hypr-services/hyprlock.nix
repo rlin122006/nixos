@@ -109,7 +109,7 @@
         {
           monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572";
           text = [ ''cmd[update:1000] echo "<b><big> $(date +"%H") </big></b>"''];
-          font_size = 175;
+          font_size = 88;
           font_family = "Maple Mono NL NF";
           color = "rgba(e5e5e5ff)";
 
@@ -120,7 +120,7 @@
         {
           monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572";
           text = [ ''cmd[update:1000] echo "<b><big> $(date +"%M") </big></b>"''];
-          font_size = 175;
+          font_size = 88;
           font_family = "Maple Mono NL NF";
           color = "rgba(e5e5e5ff)";
 
@@ -131,7 +131,7 @@
         {
           monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572";
           text = [ ''cmd[update:18000000] echo "<b><big> "$(date +'%A')" </big></b>"'' ];
-          font_size = 32;
+          font_size = 16;
           font_family = "Maple Mono NL NF";
           color = "rgba(e5e5e5ff)";
 
@@ -142,7 +142,7 @@
         {
           monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572";
           text = [ ''cmd[update:18000000] echo "<b> "$(date +'%d %b')" </b>"'' ];
-          font_size = 28;
+          font_size = 14;
           font_family = "Maple Mono NL NF";
           color = "rgba(e5e5e5ff)";
 
