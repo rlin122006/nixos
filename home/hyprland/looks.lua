@@ -19,7 +19,7 @@ hl.config({
         gaps_out = 4,
 
         col = {
-            active_border = "rgba(bb02489e)",
+            active_border = "rgba(02489eff)",
             inactive_border = "rgba(10101080)",
         },
         layout = "dwindle",
