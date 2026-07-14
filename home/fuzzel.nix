@@ -20,7 +20,7 @@
         selection = "e5e5e5ff";
         selection-text = "332a5780";
         selection-match = "332a5780";
-        border = "ef8dfcff";
+        border = "ffb0ffff";
       };
 
       border = {
