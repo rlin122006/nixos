@@ -19,7 +19,7 @@
       height = 100;
       border-size = 1;
       border-radius = 8;
-      border-color = "#df95ffff";
+      border-color = "#ffb0ffff";
       actions = 1;
       history = 1;
       text-alignment = "left";
