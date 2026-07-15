@@ -7,8 +7,8 @@
     shellAliases = {
       winboot = "sudo efibootmgr --bootnext 0000 && reboot";
       vi = "nvim";
-      laptopscreenoff = "hyprctl eval 'hl.monitor({ output = "eDP-1", disabled = true })'"
-      laptopscreenon = "hyprctl eval 'hl.monitor({ output = "eDP-1", disabled = false })'"
+      laptopscreenoff = "hyprctl eval 'hl.monitor({ output = "eDP-1", disabled = true })'";
+      laptopscreenon = "hyprctl eval 'hl.monitor({ output = "eDP-1", disabled = false })'";
       winmount = "sudo mount /dev/nvme0n1p3 /mnt";
       winumount = "sudo umount /mnt";
     };
