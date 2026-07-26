@@ -11,7 +11,7 @@ hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(appLauncher))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(browser))
 hl.bind(mainMod .. " + S", hl.dsp.window.close())
 
-hl.bind(mainMod .. " + F12", hl.dsp.exec_cmd("hyprshot -m region --raw | satty --filename -"))
+hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("hyprshot -m region --raw | satty --filename -"))
 hl.bind(mainMod .. " + SHIFT" .. " + L", hl.dsp.exec_cmd(lock))
 
 hl.bind(mainMod .. " + A", hl.dsp.layout("swapsplit"))
