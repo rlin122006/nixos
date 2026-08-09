@@ -7,8 +7,6 @@ Rectangle {
     color: Theme.moduleBackgroundColor
     radius: 16
 
-Component.onCompleted: console.log("tray item:", modelData.id, modelData.title, modelData.icon)
-
     Row {
         id: trayRow
         anchors.centerIn: parent
