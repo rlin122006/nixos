@@ -1,9 +1,7 @@
-local hypridle = "systemctl --user restart hypridle"
 local bar = "uwsm app -- qs"
 local screenPowersaver = "systemctl --user restart screen-powersaver"
 
 hl.on("hyprland.start", function ()
     hl.exec_cmd(screenPowersaver)
-    hl.exec_cmd(hypridle)
     hl.exec_cmd(bar)
 end)
