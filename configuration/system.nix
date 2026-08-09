@@ -14,7 +14,6 @@
   };
 
   boot.kernelPackages = pkgs.linuxPackages_latest;
-
   boot.blacklistedKernelModules = [ "apple-mfi-fastcharge" ];
 
   time.timeZone = "America/New_York";
@@ -68,7 +67,7 @@
       CPU_ENERGY_PERF_POLICY_ON_SAV = "power";
 
       CPU_BOOST_ON_AC = 1;
-      CPU_BOOST_ON_BAT = 0;
+      CPU_BOOST_ON_BAT = 1;
       CPU_BOOST_ON_SAV = 0;
 
       START_CHARGE_THRESH_BAT1 = 75;
@@ -130,7 +129,6 @@
   };
 
   services.usbmuxd.enable = true;
-
   services.udev.extraRules = ''
     SUBSYSTEM=="usb", ATTR{idVendor}=="05ac", MODE="0666"
     SUBSYSTEM=="usb", ATTR{idVendor}=="1227", MODE="0666"
