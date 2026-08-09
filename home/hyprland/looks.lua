@@ -6,7 +6,7 @@ hl.monitor({
 })
 
 hl.monitor({
-  output = "HDMI-A-1",
+  output = "desc:Acer Technologies KG251Q T8ZAA00A8572",
   mode = "1920x1080@143.98",
   position = "-1920x0",
   scale = "1",
