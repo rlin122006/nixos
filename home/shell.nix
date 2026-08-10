@@ -96,4 +96,9 @@
       };
     };
   };
+
+  xdg.configFile."autostart/blueman.desktop".text = ''
+    [Desktop Entry]
+    Hidden=true
+  '';
 }
