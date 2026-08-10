@@ -14,7 +14,7 @@
           fit_mode = "fill";
         }
         {
-          monitor = "HDMI-A-1";
+          monitor = "desc:Acer Technologies KG251Q T8ZAA00A8572";
           path = "~/nixos/home/hypr-services/wallpaper-1080.jpg";
           fit_mode = "fill";
         }
