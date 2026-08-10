@@ -17,6 +17,8 @@ Rectangle {
         color: hover.hovered ? Theme.highlightTextColor : Theme.textColor
         font.family: Theme.mapleMono
 
+        console.log(Mpris.players.values.map(p => p.desktopEntry))
+
         text: {
             if (!player) return ""
             if (!rmpcRunning && !spotifyRunning) return ""
@@ -68,8 +70,6 @@ Rectangle {
         const total = Math.floor(s)
         return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`
     }
-
-    console.log(Mpris.players.values.map(p => p.desktopEntry))
 
     // blocked sources
     property var player: {
