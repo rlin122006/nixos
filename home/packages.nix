@@ -224,9 +224,7 @@
       restore_paused "yes"
     '';
   };
-
   services.mpd-mpris.enable = true;
-}
 
   programs.rmpc = {
     enable = true;
