@@ -6,13 +6,10 @@
 
   imports = [
     ./home/desktop.nix
-    ./home/shell.nix
+    ./home/terminal.nix
     ./home/packages.nix
     ./home/hyprland.nix
-    ./home/kitty.nix
     ./home/quickshell.nix
-    ./home/neovim.nix
-    ./home/fastfetch.nix
     ./home/hypr-services/hypridle.nix
     ./home/hypr-services/hyprlock.nix
     ./home/hypr-services/hyprpaper.nix
