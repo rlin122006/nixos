@@ -11,7 +11,7 @@ ShellRoot {
             screen: modelData
 
             implicitWidth: Screen.width
-            implicitHeight: 34
+            implicitHeight: 36
             color: "transparent"
 
             anchors {
