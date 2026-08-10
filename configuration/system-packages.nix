@@ -6,6 +6,7 @@ let
 in {
   programs = {
     fish.enable = true;
+
     hyprland = {
       enable = true;
       withUWSM = true;
@@ -24,7 +25,7 @@ in {
   ];
 
   nixpkgs.config.permittedInsecurePackages = [
-    "pnpm-10.29.2"
+    #"pnpm-10.29.2"
     "electron-40.10.5"
   ];
 
