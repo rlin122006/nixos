@@ -10,14 +10,13 @@ Rectangle {
 
     property bool rmpcRunning: false
     property bool spotifyRunning: false
+console.log(Mpris.players.values.map(p => p.desktopEntry))
 
     Text {
         id: mprisText
         anchors.centerIn: parent
         color: hover.hovered ? Theme.highlightTextColor : Theme.textColor
         font.family: Theme.mapleMono
-
-        console.log(Mpris.players.values.map(p => p.desktopEntry))
 
         text: {
             if (!player) return ""
