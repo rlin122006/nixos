@@ -13,7 +13,5 @@
     ./home/hypr-services/hypridle.nix
     ./home/hypr-services/hyprlock.nix
     ./home/hypr-services/hyprpaper.nix
-    ./home/mpd.nix
-    ./home/rmpc.nix
   ];
 }
