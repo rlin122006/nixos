@@ -30,7 +30,6 @@
     powerOnBoot = false;
   };
   services.blueman.enable = true;
-  services.blueman-applet.enable = false;
 
   programs.ssh = {
     startAgent = true;

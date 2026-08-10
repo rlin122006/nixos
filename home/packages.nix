@@ -22,6 +22,8 @@
     vesktop
     vlc
   ];
+  
+  services.blueman-applet.enable = false;
 
   programs.firefox = {
     enable = true;
