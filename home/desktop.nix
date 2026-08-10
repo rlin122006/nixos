@@ -57,8 +57,8 @@
       text-color = "#e5e5e5ff";
       width = 400;
       height = 100;
-      border-size = 1;
-      border-radius = 8;
+      border-size = 2;
+      border-radius = 16;
       border-color = "#ffb0ffff";
       actions = 1;
       history = 1;
