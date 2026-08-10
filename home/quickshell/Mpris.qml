@@ -69,6 +69,8 @@ Rectangle {
         return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`
     }
 
+    console.log(Mpris.players.values.map(p => p.desktopEntry))
+
     // blocked sources
     property var player: {
         const blocked = ["firefox"]
