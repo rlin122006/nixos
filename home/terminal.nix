@@ -215,7 +215,7 @@
 
     settings = {
       add_newline = false;
-      format = ''[](bold white)$username[@](bold white)$hostname[\](bold white) $directory$character'';
+      format = ''(bold white)$username[@](bold white)$hostname(bold white) $directory$character'';
       
       username = {
         style_root = "bold red";
