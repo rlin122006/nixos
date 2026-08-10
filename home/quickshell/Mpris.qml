@@ -71,10 +71,11 @@ Rectangle {
 
     // blocked sources
     property var player: {
-        console.log(Mpris.players.values.map(p => p.desktopEntry))
         const blocked = ["firefox"]
         const active = Mpris.players.values.filter(p => {
             if (blocked.includes(p.desktopEntry)) return false
+            if (p.desktopEntry === "mpd-mpris" && !rmpcRunning) return false
+            if (p.desktopEntry === "spotify" && !spotifyRunning) return false
             const title = p.trackTitle?.trim()
             const artist = p.trackArtist?.join("").trim()
             if (!title && !artist) return false
