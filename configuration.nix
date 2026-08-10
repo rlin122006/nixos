@@ -7,7 +7,6 @@
     ./configuration/hardware.nix
     ./configuration/system.nix
     ./configuration/network.nix
-    ./configuration/graphics.nix
     ./configuration/system-packages.nix
   ];
 }
