@@ -10,7 +10,6 @@ Rectangle {
 
     property bool rmpcRunning: false
     property bool spotifyRunning: false
-console.log(Mpris.players.values.map(p => p.desktopEntry))
 
     Text {
         id: mprisText
@@ -72,6 +71,7 @@ console.log(Mpris.players.values.map(p => p.desktopEntry))
 
     // blocked sources
     property var player: {
+        console.log(Mpris.players.values.map(p => p.desktopEntry))
         const blocked = ["firefox"]
         const active = Mpris.players.values.filter(p => {
             if (blocked.includes(p.desktopEntry)) return false
