@@ -24,9 +24,7 @@ in {
     micro
   ];
 
-  nixpkgs.config.permittedInsecurePackages = [
-    #"electron-40.10.5"
-  ];
+  nixpkgs.config.permittedInsecurePackages = [  ];
 
   nixpkgs.overlays = [(final: prev: {
     btop = prev.btop.override {
