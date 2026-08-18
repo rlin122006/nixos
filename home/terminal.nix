@@ -5,8 +5,8 @@
     shellAliases = {
       winboot = "sudo efibootmgr --bootnext 0000 && reboot";
       vi = "nvim";
-      laptopscreenoff = "hyprctl eval 'hl.monitor({ output = \"eDP-1\", disabled = true })'";
-      laptopscreenon = "hyprctl eval 'hl.monitor({ output = \"eDP-1\", disabled = false, mode=\"2880x1800@120.00\", position=\"0x0\", scale=2 })'";
+      laptopscreenoff = "hyprctl eval 'hl.monitor({ output = \"desc:Samsung Display Corp. ATNA40CU05-0\", disabled = true })'";
+      laptopscreenon = "hyprctl eval 'hl.monitor({ output = \"desc:Samsung Display Corp. ATNA40CU05-0\", disabled = false, mode=\"2880x1800@120.00\", position=\"0x0\", scale=2 })'";
       winmount = "sudo mount /dev/nvme0n1p3 /mnt";
       winumount = "sudo umount /mnt";
     };
